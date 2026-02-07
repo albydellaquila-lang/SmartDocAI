@@ -1,8 +1,13 @@
 
+export interface KeyData {
+  etichetta: string;
+  valore: string;
+}
+
 export interface BillData {
-  tipo_documento: string;
-  scadenza: string;
-  importo: string;
+  tipo: string;
+  riassunto: string;
+  dati_chiave: KeyData[];
   azione_consigliata: string;
 }
 
