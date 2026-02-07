@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Bill Scanner AI",
+  "description": "An intelligent utility bill analyzer that extracts key information like due dates, amounts, and document types from uploaded images using Gemini AI.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
